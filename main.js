@@ -36,6 +36,7 @@ function calculateTotalPrice() {
   totalPrice -= discountedAge11to20;
   totalPrice -= discountedAge21to60;
 
+  document.write(totalPrice);
   console.log(totalPrice);
 }
 calculateTotalPrice();
